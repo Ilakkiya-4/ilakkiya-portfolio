@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-lg;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-blue-50 to-blue-100;
+  }
+  
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm shadow-xl;
+  }
+}

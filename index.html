@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ilakkiya's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="profile.jpeg" alt="Ilakkiya's Photo" class="profile-pic">
+    <h1><span id="typewriter"></span></h1>
+
+    <p class="description">
+      I'm a B.Tech IT student passionate about AI, IoT, and Android Development. I love building smart systems and exploring tech innovations.
+    </p>
+
+    <div class="cards">
+      <div class="card" onclick="showContent('skills')"><h2>✨ Skills</h2></div>
+      <div class="card" onclick="showContent('projects')"><h2>📁 Projects</h2></div>
+      <div class="card" onclick="showContent('contact')"><h2>📫 Contact</h2></div>
+    </div>
+
+    <div id="content-box" class="hidden"></div>
+
+    <a href="Ilakkiya_resume.pdf" download class="resume-button">📄 Download My Resume</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
